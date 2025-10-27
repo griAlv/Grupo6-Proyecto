@@ -32,6 +32,7 @@ namespace Grupo6Proyecto
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BarradTitulo = new System.Windows.Forms.Panel();
+            this.Hora = new System.Windows.Forms.Label();
             this.BtnRestaurar = new System.Windows.Forms.PictureBox();
             this.BtnMaximizar = new System.Windows.Forms.PictureBox();
             this.BtnMinimizar = new System.Windows.Forms.PictureBox();
@@ -51,7 +52,6 @@ namespace Grupo6Proyecto
             this.btSalas = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelContenido = new System.Windows.Forms.Panel();
-            this.Hora = new System.Windows.Forms.Label();
             this.tiempo = new System.Windows.Forms.Timer(this.components);
             this.BarradTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnRestaurar)).BeginInit();
@@ -77,6 +77,17 @@ namespace Grupo6Proyecto
             this.BarradTitulo.Size = new System.Drawing.Size(1300, 46);
             this.BarradTitulo.TabIndex = 0;
             this.BarradTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarradTitulo_MouseDown);
+            // 
+            // Hora
+            // 
+            this.Hora.AutoSize = true;
+            this.Hora.Font = new System.Drawing.Font("Montserrat SemiBold", 14.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Hora.ForeColor = System.Drawing.Color.Snow;
+            this.Hora.Location = new System.Drawing.Point(12, 2);
+            this.Hora.Name = "Hora";
+            this.Hora.Size = new System.Drawing.Size(44, 39);
+            this.Hora.TabIndex = 15;
+            this.Hora.Text = "}{}";
             // 
             // BtnRestaurar
             // 
@@ -254,6 +265,7 @@ namespace Grupo6Proyecto
             this.btInscripcion.TabIndex = 5;
             this.btInscripcion.Text = "Inscripcion";
             this.btInscripcion.UseVisualStyleBackColor = false;
+            this.btInscripcion.Click += new System.EventHandler(this.btInscripcion_Click);
             // 
             // panel2
             // 
@@ -329,17 +341,6 @@ namespace Grupo6Proyecto
             this.PanelContenido.Size = new System.Drawing.Size(1036, 604);
             this.PanelContenido.TabIndex = 2;
             this.PanelContenido.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenido_Paint);
-            // 
-            // Hora
-            // 
-            this.Hora.AutoSize = true;
-            this.Hora.Font = new System.Drawing.Font("Montserrat SemiBold", 14.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Hora.ForeColor = System.Drawing.Color.Snow;
-            this.Hora.Location = new System.Drawing.Point(12, 2);
-            this.Hora.Name = "Hora";
-            this.Hora.Size = new System.Drawing.Size(44, 39);
-            this.Hora.TabIndex = 15;
-            this.Hora.Text = "}{}";
             // 
             // tiempo
             // 

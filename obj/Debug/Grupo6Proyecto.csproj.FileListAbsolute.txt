@@ -22,3 +22,4 @@ C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.cspro
 C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.exe
 C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.pdb
+C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.Registro.resources

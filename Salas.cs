@@ -24,7 +24,8 @@ namespace Grupo6Proyecto
 
         private void BtnH1_Click(object sender, EventArgs e)
         {
-
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
+            principal.abrirFormHija(new Registro()); // Abre Form3
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -60,6 +61,36 @@ namespace Grupo6Proyecto
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
             
+        }
+
+        private void BtnH6_Click(object sender, EventArgs e)
+        {
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
+            principal.abrirFormHija(new Registro()); // Abre Form3
+        }
+
+        private void BtnH5_Click(object sender, EventArgs e)
+        {
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
+            principal.abrirFormHija(new Registro()); // Abre Form3
+        }
+
+        private void BtnH4_Click(object sender, EventArgs e)
+        {
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
+            principal.abrirFormHija(new Registro()); // Abre Form3
+        }
+
+        private void BtnH3_Click(object sender, EventArgs e)
+        {
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
+            principal.abrirFormHija(new Registro()); // Abre Form3
+        }
+
+        private void BtnH2_Click(object sender, EventArgs e)
+        {
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
+            principal.abrirFormHija(new Registro()); // Abre Form3
         }
     }
 }

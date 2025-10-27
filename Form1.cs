@@ -97,6 +97,10 @@ namespace Grupo6Proyecto
             pictureBox1_Click(null, e);
         }
 
+        private void btInscripcion_Click(object sender, EventArgs e)
+        {
 
+            abrirFormHija(new Registro());
+        }
     }
 }
