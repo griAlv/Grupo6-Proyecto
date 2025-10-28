@@ -37,3 +37,17 @@ D:\Programación 1\Proyecto Final Githud\Grupo6-Proyecto\obj\Debug\Grupo6Proyect
 D:\Programación 1\Proyecto Final Githud\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.csproj.CoreCompileInputs.cache
 D:\Programación 1\Proyecto Final Githud\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.exe
 D:\Programación 1\Proyecto Final Githud\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.pdb
+D:\Programación 1\trabajo\Grupo6-Proyecto\bin\Debug\Grupo6Proyecto.exe.config
+D:\Programación 1\trabajo\Grupo6-Proyecto\bin\Debug\Grupo6Proyecto.exe
+D:\Programación 1\trabajo\Grupo6-Proyecto\bin\Debug\Grupo6Proyecto.pdb
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.csproj.AssemblyReference.cache
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.exe.config
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.Form1.resources
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.Inicio.resources
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.Properties.Resources.resources
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.Registro.resources
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.Salas.resources
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.csproj.GenerateResource.cache
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.csproj.CoreCompileInputs.cache
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.exe
+D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.pdb
