@@ -7,15 +7,19 @@
       "RelativeMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|d:\\programaci\u00F3n 1\\trabajo\\grupo6-proyecto\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|d:\\programaci\u00F3n 1\\trabajo\\grupo6-proyecto\\salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|solutionrelative:salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|d:\\programaci\u00F3n 1\\trabajo\\grupo6-proyecto\\salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|solutionrelative:registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B9BEAA4-274D-494A-BF15-958D134526DB}|Grupo6Proyecto.csproj|solutionrelative:salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Usuarios.cs",
+              "ToolTip": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Usuarios.cs",
+              "RelativeToolTip": "Usuarios.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:12:01.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Salas.cs",
               "DocumentMoniker": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Salas.cs",
               "RelativeDocumentMoniker": "Salas.cs",
@@ -38,8 +54,7 @@
               "RelativeToolTip": "Salas.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAiwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:32:34.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T17:32:34.908Z"
             },
             {
               "$type": "Document",
@@ -50,8 +65,7 @@
               "ToolTip": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Salas.cs [Dise\u00F1o]",
               "RelativeToolTip": "Salas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:32:31.865Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-28T17:32:31.865Z"
             },
             {
               "$type": "Document",
@@ -61,22 +75,21 @@
               "RelativeDocumentMoniker": "Registro.cs",
               "ToolTip": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Registro.cs",
               "RelativeToolTip": "Registro.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAswC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAowL4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T17:31:53.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Registro.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Registro.cs",
               "RelativeDocumentMoniker": "Registro.cs",
               "ToolTip": "D:\\Programaci\u00F3n 1\\trabajo\\Grupo6-Proyecto\\Registro.cs [Dise\u00F1o]",
               "RelativeToolTip": "Registro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:31:47.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-28T17:31:47.708Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ namespace Grupo6Proyecto
     {
         List<Usuarios> usuarios = new List<Usuarios>();
         string nombre, apellidos, salas, fechatx,horatx;
-        int identificacion;
+        int identificacion,plan1,plan2,plan3,PrecioTotal;
         public string SalaSeleccionada { get; set; }
 
         public Registro()
@@ -150,6 +150,44 @@ namespace Grupo6Proyecto
                 return;
             }
 
+            Usuarios Nuevo = new Usuarios();
+            plan1 = Convert.ToInt32(TxtPlan1.Text);
+            plan2 = Convert.ToInt32(TxtPlan2.Text);
+            plan3 = Convert.ToInt32(TxtPlan3.Text);
+
+            
+            Nuevo.Nombre = nombre;
+            Nuevo.Apellidos = apellidos;
+            Nuevo.Identificacion = identificacion;
+            Nuevo.Sala = salas;
+            Nuevo.Fecha = fecha;
+            Nuevo.Horas = hora;
+            Nuevo.Inscripciones(plan1, plan2, plan3);
+            usuarios.Add(Nuevo);
+
+            MessageBox.Show("Agregado con exito....");
+
+
+            if (usuarios.Count == 0)
+            {
+                MessageBox.Show("No hay usuarios registrados todavía.");
+                return;
+            }
+
+            string mensaje = "";
+
+            foreach (var u in usuarios)
+            {
+                mensaje += $"Nombre: {u.Nombre} {u.Apellidos}\n" +
+                           $"ID: {u.Identificacion}\n" +
+                           $"Sala: {u.Sala}\n" +
+                           $"Fecha: {u.Fecha:dd/MM/yyyy}\n" +
+                           $"Hora: {u.Horas:HH:mm}\n" +
+                           $"Total a pagar: ${u.TotalCombo}\n" +
+                           "--------------------------\n";
+            }
+
+            MessageBox.Show(mensaje, "Lista de Usuarios");
 
         }
 
@@ -220,6 +258,7 @@ namespace Grupo6Proyecto
             }
         }
 
+        //solo permitimos numeros en nuestro textbox de combos
         private void TxtPlan1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(Keys.Back))
@@ -246,5 +285,6 @@ namespace Grupo6Proyecto
                 MessageBox.Show("Solo se permiten números", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }
