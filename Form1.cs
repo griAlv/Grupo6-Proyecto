@@ -102,5 +102,15 @@ namespace Grupo6Proyecto
 
             abrirFormHija(new Registro());
         }
+
+        private void btPlanes_Click(object sender, EventArgs e)
+        {
+            abrirFormHija(new Planes());
+        }
+
+        private void btHorarios_Click(object sender, EventArgs e)
+        {
+            abrirFormHija(new Horarios());
+        }
     }
 }

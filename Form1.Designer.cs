@@ -148,8 +148,6 @@ namespace Grupo6Proyecto
             // 
             // MenuVetical
             // 
-            this.MenuVetical.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.MenuVetical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(98)))), ((int)(((byte)(76)))));
             this.MenuVetical.Controls.Add(this.panel5);
             this.MenuVetical.Controls.Add(this.button5);
@@ -164,6 +162,7 @@ namespace Grupo6Proyecto
             this.MenuVetical.Controls.Add(this.panel1);
             this.MenuVetical.Controls.Add(this.btSalas);
             this.MenuVetical.Controls.Add(this.pictureBox1);
+            this.MenuVetical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVetical.Location = new System.Drawing.Point(0, 46);
             this.MenuVetical.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MenuVetical.Name = "MenuVetical";
@@ -241,6 +240,7 @@ namespace Grupo6Proyecto
             this.btPlanes.TabIndex = 7;
             this.btPlanes.Text = "Planes";
             this.btPlanes.UseVisualStyleBackColor = false;
+            this.btPlanes.Click += new System.EventHandler(this.btPlanes_Click);
             // 
             // panel4
             // 
@@ -263,7 +263,7 @@ namespace Grupo6Proyecto
             this.btInscripcion.Name = "btInscripcion";
             this.btInscripcion.Size = new System.Drawing.Size(260, 45);
             this.btInscripcion.TabIndex = 5;
-            this.btInscripcion.Text = "Inscripcion";
+            this.btInscripcion.Text = "Registrarse";
             this.btInscripcion.UseVisualStyleBackColor = false;
             this.btInscripcion.Click += new System.EventHandler(this.btInscripcion_Click);
             // 
@@ -290,6 +290,7 @@ namespace Grupo6Proyecto
             this.btHorarios.TabIndex = 3;
             this.btHorarios.Text = "Horarios";
             this.btHorarios.UseVisualStyleBackColor = false;
+            this.btHorarios.Click += new System.EventHandler(this.btHorarios_Click);
             // 
             // panel1
             // 
@@ -330,15 +331,13 @@ namespace Grupo6Proyecto
             // 
             // PanelContenido
             // 
-            this.PanelContenido.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.PanelContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+            this.PanelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenido.ForeColor = System.Drawing.Color.White;
-            this.PanelContenido.Location = new System.Drawing.Point(264, 46);
+            this.PanelContenido.Location = new System.Drawing.Point(268, 46);
             this.PanelContenido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PanelContenido.Name = "PanelContenido";
-            this.PanelContenido.Size = new System.Drawing.Size(1036, 604);
+            this.PanelContenido.Size = new System.Drawing.Size(1032, 604);
             this.PanelContenido.TabIndex = 2;
             this.PanelContenido.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenido_Paint);
             // 

@@ -51,3 +51,5 @@ D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.csproj.Gener
 D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.csproj.CoreCompileInputs.cache
 D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.exe
 D:\Programación 1\trabajo\Grupo6-Proyecto\obj\Debug\Grupo6Proyecto.pdb
+C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.Planes.resources
+C:\Users\danim\OneDrive\Escritorio\Clave5_Grupo 5\obj\Debug\Grupo6Proyecto.Horarios.resources
