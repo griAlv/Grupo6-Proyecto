@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Globalization;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Grupo6Proyecto
 {
@@ -43,6 +46,7 @@ namespace Grupo6Proyecto
 
         private void btnReservacion_Click(object sender, EventArgs e)
         {
+
             nombre = TxtNombre.Text;
             apellidos = TxtApellido.Text;
 
@@ -64,7 +68,7 @@ namespace Grupo6Proyecto
                 }
 
                 
-            }catch (Exception ex)
+            }catch (Exception)
             {
                 MessageBox.Show("No se puede ingresar letras ni signos por favor vuelva a intentarlo","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -167,7 +171,49 @@ namespace Grupo6Proyecto
 
             MessageBox.Show("Agregado con exito....");
 
+            // Convertir la hora a formato compatible con MySQL
+            string horaMySQL = hora.ToString("HH:mm:ss");
+            // Convertir fecha a formato MySQL
+            string fechaMySQL = fecha.ToString("yyyy-MM-dd");
+            // Conexion para comunicarse con el servidor MySQL 
+            string conexionsql = "server=localhost; database=grupo6proyecto; uid=root; pwd=;";
 
+            try
+            {
+                //Conexion creada 
+                using (MySqlConnection con = new MySqlConnection(conexionsql))
+                {
+                    con.Open();
+
+                    //Introducir los datos a la base
+                    string query = @"INSERT INTO reservaciones 
+                        (nombre, apellido, identificacion, sala, fecha, hora, plan1, plan2, plan3, totalcombo)
+                        VALUES (@nombre, @apellido, @id, @sala, @fecha, @hora, @p1, @p2, @p3, @total)";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, con))
+                    {
+                        //enviar los datos hacia el SQL
+                        cmd.Parameters.AddWithValue("@nombre", nombre);
+                        cmd.Parameters.AddWithValue("@apellido", apellidos);
+                        cmd.Parameters.AddWithValue("@id", identificacion);
+                        cmd.Parameters.AddWithValue("@sala", salas);
+                        cmd.Parameters.AddWithValue("@fecha", fechaMySQL);
+                        cmd.Parameters.AddWithValue("@hora", horaMySQL);
+                        cmd.Parameters.AddWithValue("@p1", plan1);
+                        cmd.Parameters.AddWithValue("@p2", plan2);
+                        cmd.Parameters.AddWithValue("@p3", plan3);
+                        cmd.Parameters.AddWithValue("@total", Nuevo.TotalCombo);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+
+                MessageBox.Show("Reservación guardada en la base de datos correctamente.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar en la base de datos:\n" + ex.Message);
+            }
             if (usuarios.Count == 0)
             {
                 MessageBox.Show("No hay usuarios registrados todavía.");
@@ -189,7 +235,7 @@ namespace Grupo6Proyecto
 
             MessageBox.Show(mensaje, "Lista de Usuarios");
 
-        }
+    }
 
         //validación para no ingresar numeros ni signos
         private void TxtNombre_KeyPress(object sender, KeyPressEventArgs e)
