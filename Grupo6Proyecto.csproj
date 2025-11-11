@@ -78,6 +78,12 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservaciones.Designer.cs">
+      <DependentUpon>Reservaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Salas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservaciones.resx">
+      <DependentUpon>Reservaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Salas.resx">
       <DependentUpon>Salas.cs</DependentUpon>
