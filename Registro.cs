@@ -14,7 +14,7 @@ namespace Grupo6Proyecto
     {
         List<Usuarios> usuarios = new List<Usuarios>();
         string nombre, apellidos, salas, fechatx,horatx;
-        int identificacion,plan1,plan2,plan3,PrecioTotal;
+        int identificacion,plan1 = 0,plan2 = 0,plan3 = 0;
         public string SalaSeleccionada { get; set; }
 
         public Registro()
@@ -24,6 +24,7 @@ namespace Grupo6Proyecto
         }
 
 
+        //validación para secoger una sala
         private void Registro_Load(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(SalaSeleccionada))
@@ -34,7 +35,7 @@ namespace Grupo6Proyecto
             }
         }
 
-
+        //calendario
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
             TxtFecha.Text = monthCalendar1.SelectionStart.ToString("dd/MM/yyyy");
@@ -70,6 +71,13 @@ namespace Grupo6Proyecto
                 return;
             }
 
+            //validación para id que no se repita y sea unico 
+            if (IdRepetido(identificacion))
+            {
+                MessageBox.Show("Ya existe un usuario con esa identificación.",
+                                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             salas = cbxSalas.Text;
 
@@ -150,12 +158,35 @@ namespace Grupo6Proyecto
                 return;
             }
 
-            Usuarios Nuevo = new Usuarios();
-            plan1 = Convert.ToInt32(TxtPlan1.Text);
-            plan2 = Convert.ToInt32(TxtPlan2.Text);
-            plan3 = Convert.ToInt32(TxtPlan3.Text);
+          
 
-            
+
+            //validación de fecha hora salas no estan ocupadas 
+            if (FechaHoraOcupada(fecha, hora, salas))
+            {
+                MessageBox.Show("Esa sala ya está reservada para la fecha y hora seleccionadas.",
+                                "Ocupado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
+
+           
+
+            //guardamos datos en nuestra lista
+            Usuarios Nuevo = new Usuarios();
+
+            // Si el texto no está vacío, convierte; si está vacío, deja el 0.
+            if (!string.IsNullOrWhiteSpace(TxtPlan1.Text))
+                plan1 = Convert.ToInt32(TxtPlan1.Text);
+
+            if (!string.IsNullOrWhiteSpace(TxtPlan2.Text))
+                plan2 = Convert.ToInt32(TxtPlan2.Text);
+
+            if (!string.IsNullOrWhiteSpace(TxtPlan3.Text))
+                plan3 = Convert.ToInt32(TxtPlan3.Text);
+
+
             Nuevo.Nombre = nombre;
             Nuevo.Apellidos = apellidos;
             Nuevo.Identificacion = identificacion;
@@ -167,7 +198,7 @@ namespace Grupo6Proyecto
 
             MessageBox.Show("Agregado con exito....");
 
-
+            //si la lista esta vacia
             if (usuarios.Count == 0)
             {
                 MessageBox.Show("No hay usuarios registrados todavía.");
@@ -176,6 +207,7 @@ namespace Grupo6Proyecto
 
             string mensaje = "";
 
+            //mensaje para ver lo resgistrado
             foreach (var u in usuarios)
             {
                 mensaje += $"Nombre: {u.Nombre} {u.Apellidos}\n" +
@@ -189,6 +221,23 @@ namespace Grupo6Proyecto
 
             MessageBox.Show(mensaje, "Lista de Usuarios");
 
+
+        }
+
+        //metodo para validar las salas ocupadas hora y fecha 
+        private bool FechaHoraOcupada(DateTime fecha, DateTime hora, string sala)
+        {
+            foreach (var u in usuarios)
+            {
+                if (u.Fecha.Date == fecha.Date &&
+                    u.Horas.TimeOfDay == hora.TimeOfDay &&
+                    u.Sala == sala)
+                {
+                    return true; // Esa sala ya está ocupada en esa fecha/hora
+                }
+            }
+
+            return false; // Está libre
         }
 
         //validación para no ingresar numeros ni signos
@@ -210,6 +259,19 @@ namespace Grupo6Proyecto
             }
         }
 
+        //Metodo para validar que el id no este repetido y se un id unico por persona
+        private bool IdRepetido(int id)
+        {
+            foreach (var u in usuarios)
+            {
+                if (u.Identificacion == id)
+                    return true;
+            }
+            return false;
+        }
+
+
+        //apartado de los textbox 
         private void TxtApellido_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsLetter(e.KeyChar) && e.KeyChar != Convert.ToChar(Keys.Back) && e.KeyChar != ' ')
