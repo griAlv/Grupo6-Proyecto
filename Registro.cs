@@ -11,6 +11,7 @@ using System.Windows.Forms;
 namespace Grupo6Proyecto
 {
     public partial class Registro : Form
+
     {
         List<Usuarios> usuarios = new List<Usuarios>();
         string nombre, apellidos, salas, fechatx,horatx;
@@ -20,6 +21,7 @@ namespace Grupo6Proyecto
         public Registro()
         {
             InitializeComponent();
+            cbxSalas.DropDownStyle = ComboBoxStyle.DropDownList;// para que solo pueda seccionar una sala, no escribir
             this.Load += Registro_Load;
         }
 
@@ -175,7 +177,7 @@ namespace Grupo6Proyecto
 
             //guardamos datos en nuestra lista
             Usuarios Nuevo = new Usuarios();
-
+            
             // Si el texto no está vacío, convierte; si está vacío, deja el 0.
             if (!string.IsNullOrWhiteSpace(TxtPlan1.Text))
                 plan1 = Convert.ToInt32(TxtPlan1.Text);
@@ -278,6 +280,28 @@ namespace Grupo6Proyecto
             {
                 e.Handled = true;
             }
+
+        }
+
+        private void BtnBorrar_Click(object sender, EventArgs e)
+        {
+
+            // Limpia el ComboBox de salas (si lo tienes en el formulario)
+            cbxSalas.SelectedIndex = -1;
+
+            // Limpia la fecha
+            TxtFecha.Clear();
+
+            // Limpia la hora
+            TxtHora.Clear();
+
+            // Restablece valores de los planes
+            TxtPlan1.Clear();
+            TxtPlan2.Clear();
+            TxtPlan3.Clear();
+            TxtNombre.Clear();
+            TxtApellido.Clear();
+            TxtIdentificacion.Clear();
 
         }
 

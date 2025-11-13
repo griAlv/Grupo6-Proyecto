@@ -48,30 +48,29 @@ namespace Grupo6Proyecto
             // 
             this.Calend.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Calend.CalendarDimensions = new System.Drawing.Size(1, 2);
-            this.Calend.Location = new System.Drawing.Point(26, 115);
-            this.Calend.Margin = new System.Windows.Forms.Padding(7);
+            this.Calend.Location = new System.Drawing.Point(35, 142);
             this.Calend.Name = "Calend";
             this.Calend.TabIndex = 0;
             // 
             // TablaReserv
             // 
             this.TablaReserv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaReserv.Location = new System.Drawing.Point(244, 115);
-            this.TablaReserv.Margin = new System.Windows.Forms.Padding(2);
+            this.TablaReserv.Location = new System.Drawing.Point(325, 142);
+            this.TablaReserv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TablaReserv.Name = "TablaReserv";
             this.TablaReserv.RowHeadersWidth = 51;
             this.TablaReserv.RowTemplate.Height = 24;
-            this.TablaReserv.Size = new System.Drawing.Size(347, 323);
+            this.TablaReserv.Size = new System.Drawing.Size(463, 398);
             this.TablaReserv.TabIndex = 1;
             // 
             // CbSala
             // 
             this.CbSala.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CbSala.FormattingEnabled = true;
-            this.CbSala.Location = new System.Drawing.Point(420, 71);
-            this.CbSala.Margin = new System.Windows.Forms.Padding(2);
+            this.CbSala.Location = new System.Drawing.Point(560, 87);
+            this.CbSala.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CbSala.Name = "CbSala";
-            this.CbSala.Size = new System.Drawing.Size(322, 30);
+            this.CbSala.Size = new System.Drawing.Size(428, 37);
             this.CbSala.TabIndex = 2;
             // 
             // panel1
@@ -87,19 +86,18 @@ namespace Grupo6Proyecto
             this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(764, 453);
+            this.panel1.Size = new System.Drawing.Size(1019, 558);
             this.panel1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(21, 72);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(28, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(411, 26);
+            this.label2.Size = new System.Drawing.Size(526, 32);
             this.label2.TabIndex = 23;
             this.label2.Text = "Seleccione la sala que quiere revisar:";
             // 
@@ -109,9 +107,9 @@ namespace Grupo6Proyecto
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(764, 52);
+            this.panel2.Size = new System.Drawing.Size(1019, 64);
             this.panel2.TabIndex = 22;
             // 
             // label1
@@ -120,10 +118,9 @@ namespace Grupo6Proyecto
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(539, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(735, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 36);
+            this.label1.Size = new System.Drawing.Size(284, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Reservaciones";
             // 
@@ -133,11 +130,11 @@ namespace Grupo6Proyecto
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(620, 320);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.MaximumSize = new System.Drawing.Size(750, 812);
+            this.button2.Location = new System.Drawing.Point(827, 394);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.MaximumSize = new System.Drawing.Size(1000, 999);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 58);
+            this.button2.Size = new System.Drawing.Size(161, 71);
             this.button2.TabIndex = 21;
             this.button2.Text = "Borrar";
             this.button2.UseVisualStyleBackColor = false;
@@ -148,11 +145,11 @@ namespace Grupo6Proyecto
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(620, 178);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.MaximumSize = new System.Drawing.Size(750, 812);
+            this.button1.Location = new System.Drawing.Point(827, 219);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.MaximumSize = new System.Drawing.Size(1000, 999);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 58);
+            this.button1.Size = new System.Drawing.Size(161, 71);
             this.button1.TabIndex = 20;
             this.button1.Text = "Reservar";
             this.button1.UseVisualStyleBackColor = false;
@@ -163,11 +160,11 @@ namespace Grupo6Proyecto
             this.btnReservacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.btnReservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReservacion.ForeColor = System.Drawing.Color.White;
-            this.btnReservacion.Location = new System.Drawing.Point(620, 249);
-            this.btnReservacion.Margin = new System.Windows.Forms.Padding(2);
-            this.btnReservacion.MaximumSize = new System.Drawing.Size(750, 812);
+            this.btnReservacion.Location = new System.Drawing.Point(827, 306);
+            this.btnReservacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReservacion.MaximumSize = new System.Drawing.Size(1000, 999);
             this.btnReservacion.Name = "btnReservacion";
-            this.btnReservacion.Size = new System.Drawing.Size(121, 58);
+            this.btnReservacion.Size = new System.Drawing.Size(161, 71);
             this.btnReservacion.TabIndex = 19;
             this.btnReservacion.Text = "Editar";
             this.btnReservacion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -175,12 +172,12 @@ namespace Grupo6Proyecto
             // 
             // Reservaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(764, 453);
+            this.ClientSize = new System.Drawing.Size(1019, 558);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Reservaciones";
             this.Text = "Reservaciones";
             ((System.ComponentModel.ISupportInitialize)(this.TablaReserv)).EndInit();
