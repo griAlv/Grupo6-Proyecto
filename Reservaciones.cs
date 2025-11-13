@@ -16,5 +16,10 @@ namespace Grupo6Proyecto
         {
             InitializeComponent();
         }
+
+        private void TablaReserv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
