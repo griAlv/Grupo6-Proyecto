@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +12,6 @@ using System.Windows.Forms;
 namespace Grupo6Proyecto
 {
     public partial class Registro : Form
-
     {
         List<Usuarios> usuarios = new List<Usuarios>();
         string nombre, apellidos, salas, fechatx,horatx;
@@ -21,7 +21,6 @@ namespace Grupo6Proyecto
         public Registro()
         {
             InitializeComponent();
-            cbxSalas.DropDownStyle = ComboBoxStyle.DropDownList;// para que solo pueda seccionar una sala, no escribir
             this.Load += Registro_Load;
         }
 
@@ -67,7 +66,7 @@ namespace Grupo6Proyecto
                 }
 
                 
-            }catch (Exception ex)
+            }catch (Exception)
             {
                 MessageBox.Show("No se puede ingresar letras ni signos por favor vuelva a intentarlo","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -177,7 +176,7 @@ namespace Grupo6Proyecto
 
             //guardamos datos en nuestra lista
             Usuarios Nuevo = new Usuarios();
-            
+
             // Si el texto no está vacío, convierte; si está vacío, deja el 0.
             if (!string.IsNullOrWhiteSpace(TxtPlan1.Text))
                 plan1 = Convert.ToInt32(TxtPlan1.Text);
@@ -199,6 +198,50 @@ namespace Grupo6Proyecto
             usuarios.Add(Nuevo);
 
             MessageBox.Show("Agregado con exito....");
+
+            // Convertir la hora a formato compatible con MySQL
+            string horaMySQL = hora.ToString("HH:mm:ss");
+            // Convertir fecha a formato MySQL
+            string fechaMySQL = fecha.ToString("yyyy-MM-dd");
+            // Conexion para comunicarse con el servidor MySQL 
+            string conexionsql = "server=sql5.freesqldatabase.com; port=3306; database=sql5807318; uid=sql5807318; password=IjAcBHuLSu;";
+
+            try
+            {
+                //Conexion creada 
+                using (MySqlConnection con = new MySqlConnection(conexionsql))
+                {
+                    con.Open();
+
+                    //Introducir los datos a la base
+                    string query = @"INSERT INTO reservaciones 
+                        (nombre, apellido, identificacion, sala, fecha, hora, plan1, plan2, plan3, totalcombo)
+                        VALUES (@nombre, @apellido, @id, @sala, @fecha, @hora, @p1, @p2, @p3, @total)";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, con))
+                    {
+                        //enviar los datos hacia el SQL
+                        cmd.Parameters.AddWithValue("@nombre", nombre);
+                        cmd.Parameters.AddWithValue("@apellido", apellidos);
+                        cmd.Parameters.AddWithValue("@id", identificacion);
+                        cmd.Parameters.AddWithValue("@sala", salas);
+                        cmd.Parameters.AddWithValue("@fecha", fechaMySQL);
+                        cmd.Parameters.AddWithValue("@hora", horaMySQL);
+                        cmd.Parameters.AddWithValue("@p1", plan1);
+                        cmd.Parameters.AddWithValue("@p2", plan2);
+                        cmd.Parameters.AddWithValue("@p3", plan3);
+                        cmd.Parameters.AddWithValue("@total", Nuevo.TotalCombo);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+
+                MessageBox.Show("Reservación guardada en la base de datos correctamente.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar en la base de datos:\n" + ex.Message);
+            }
 
             //si la lista esta vacia
             if (usuarios.Count == 0)
@@ -283,25 +326,8 @@ namespace Grupo6Proyecto
 
         }
 
-        private void BtnBorrar_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-            // Limpia el ComboBox de salas (si lo tienes en el formulario)
-            cbxSalas.SelectedIndex = -1;
-
-            // Limpia la fecha
-            TxtFecha.Clear();
-
-            // Limpia la hora
-            TxtHora.Clear();
-
-            // Restablece valores de los planes
-            TxtPlan1.Clear();
-            TxtPlan2.Clear();
-            TxtPlan3.Clear();
-            TxtNombre.Clear();
-            TxtApellido.Clear();
-            TxtIdentificacion.Clear();
 
         }
 
