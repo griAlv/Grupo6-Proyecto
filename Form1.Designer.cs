@@ -72,20 +72,21 @@ namespace Grupo6Proyecto
             this.BarradTitulo.Controls.Add(this.BtnCerrar);
             this.BarradTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarradTitulo.Location = new System.Drawing.Point(0, 0);
-            this.BarradTitulo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BarradTitulo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BarradTitulo.Name = "BarradTitulo";
-            this.BarradTitulo.Size = new System.Drawing.Size(1300, 46);
+            this.BarradTitulo.Size = new System.Drawing.Size(975, 37);
             this.BarradTitulo.TabIndex = 0;
             this.BarradTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarradTitulo_MouseDown);
             // 
             // Hora
             // 
             this.Hora.AutoSize = true;
-            this.Hora.Font = new System.Drawing.Font("Montserrat SemiBold", 14.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Hora.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hora.ForeColor = System.Drawing.Color.Snow;
-            this.Hora.Location = new System.Drawing.Point(12, 2);
+            this.Hora.Location = new System.Drawing.Point(9, 2);
+            this.Hora.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Hora.Name = "Hora";
-            this.Hora.Size = new System.Drawing.Size(44, 39);
+            this.Hora.Size = new System.Drawing.Size(36, 25);
             this.Hora.TabIndex = 15;
             this.Hora.Text = "}{}";
             // 
@@ -94,10 +95,10 @@ namespace Grupo6Proyecto
             this.BtnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("BtnRestaurar.Image")));
-            this.BtnRestaurar.Location = new System.Drawing.Point(1207, 4);
-            this.BtnRestaurar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnRestaurar.Location = new System.Drawing.Point(905, 3);
+            this.BtnRestaurar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnRestaurar.Name = "BtnRestaurar";
-            this.BtnRestaurar.Size = new System.Drawing.Size(40, 37);
+            this.BtnRestaurar.Size = new System.Drawing.Size(30, 30);
             this.BtnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.BtnRestaurar.TabIndex = 3;
             this.BtnRestaurar.TabStop = false;
@@ -109,10 +110,9 @@ namespace Grupo6Proyecto
             this.BtnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMaximizar.Image")));
-            this.BtnMaximizar.Location = new System.Drawing.Point(1207, 2);
-            this.BtnMaximizar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnMaximizar.Location = new System.Drawing.Point(905, 2);
             this.BtnMaximizar.Name = "BtnMaximizar";
-            this.BtnMaximizar.Size = new System.Drawing.Size(40, 37);
+            this.BtnMaximizar.Size = new System.Drawing.Size(30, 30);
             this.BtnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.BtnMaximizar.TabIndex = 4;
             this.BtnMaximizar.TabStop = false;
@@ -123,10 +123,10 @@ namespace Grupo6Proyecto
             this.BtnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
-            this.BtnMinimizar.Location = new System.Drawing.Point(1160, 4);
-            this.BtnMinimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnMinimizar.Location = new System.Drawing.Point(870, 3);
+            this.BtnMinimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnMinimizar.Name = "BtnMinimizar";
-            this.BtnMinimizar.Size = new System.Drawing.Size(40, 37);
+            this.BtnMinimizar.Size = new System.Drawing.Size(30, 30);
             this.BtnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.BtnMinimizar.TabIndex = 2;
             this.BtnMinimizar.TabStop = false;
@@ -137,10 +137,10 @@ namespace Grupo6Proyecto
             this.BtnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
-            this.BtnCerrar.Location = new System.Drawing.Point(1253, 4);
-            this.BtnCerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnCerrar.Location = new System.Drawing.Point(940, 3);
+            this.BtnCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(40, 37);
+            this.BtnCerrar.Size = new System.Drawing.Size(30, 30);
             this.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BtnCerrar.TabIndex = 0;
             this.BtnCerrar.TabStop = false;
@@ -163,18 +163,19 @@ namespace Grupo6Proyecto
             this.MenuVetical.Controls.Add(this.btSalas);
             this.MenuVetical.Controls.Add(this.pictureBox1);
             this.MenuVetical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuVetical.Location = new System.Drawing.Point(0, 46);
-            this.MenuVetical.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MenuVetical.Location = new System.Drawing.Point(0, 37);
+            this.MenuVetical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MenuVetical.Name = "MenuVetical";
-            this.MenuVetical.Size = new System.Drawing.Size(268, 604);
+            this.MenuVetical.Size = new System.Drawing.Size(201, 491);
             this.MenuVetical.TabIndex = 1;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
-            this.panel5.Location = new System.Drawing.Point(0, 426);
+            this.panel5.Location = new System.Drawing.Point(0, 346);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(13, 45);
+            this.panel5.Size = new System.Drawing.Size(10, 37);
             this.panel5.TabIndex = 10;
             // 
             // button5
@@ -184,11 +185,12 @@ namespace Grupo6Proyecto
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Montserrat SemiBold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(247)))), ((int)(((byte)(246)))));
-            this.button5.Location = new System.Drawing.Point(0, 426);
+            this.button5.Location = new System.Drawing.Point(0, 346);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(260, 45);
+            this.button5.Size = new System.Drawing.Size(195, 37);
             this.button5.TabIndex = 11;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -196,9 +198,10 @@ namespace Grupo6Proyecto
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
-            this.panel6.Location = new System.Drawing.Point(0, 370);
+            this.panel6.Location = new System.Drawing.Point(0, 301);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(13, 45);
+            this.panel6.Size = new System.Drawing.Size(10, 37);
             this.panel6.TabIndex = 8;
             // 
             // btReservaciones
@@ -208,21 +211,24 @@ namespace Grupo6Proyecto
             this.btReservaciones.FlatAppearance.BorderSize = 0;
             this.btReservaciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
             this.btReservaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btReservaciones.Font = new System.Drawing.Font("Montserrat SemiBold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReservaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btReservaciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(247)))), ((int)(((byte)(246)))));
-            this.btReservaciones.Location = new System.Drawing.Point(0, 370);
+            this.btReservaciones.Location = new System.Drawing.Point(0, 301);
+            this.btReservaciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btReservaciones.Name = "btReservaciones";
-            this.btReservaciones.Size = new System.Drawing.Size(260, 45);
+            this.btReservaciones.Size = new System.Drawing.Size(195, 37);
             this.btReservaciones.TabIndex = 9;
             this.btReservaciones.Text = "Reservaciones";
             this.btReservaciones.UseVisualStyleBackColor = false;
+            this.btReservaciones.Click += new System.EventHandler(this.btReservaciones_Click);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
-            this.panel3.Location = new System.Drawing.Point(0, 314);
+            this.panel3.Location = new System.Drawing.Point(0, 255);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(13, 45);
+            this.panel3.Size = new System.Drawing.Size(10, 37);
             this.panel3.TabIndex = 6;
             // 
             // btPlanes
@@ -232,11 +238,12 @@ namespace Grupo6Proyecto
             this.btPlanes.FlatAppearance.BorderSize = 0;
             this.btPlanes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
             this.btPlanes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btPlanes.Font = new System.Drawing.Font("Montserrat SemiBold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPlanes.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btPlanes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(247)))), ((int)(((byte)(246)))));
-            this.btPlanes.Location = new System.Drawing.Point(0, 314);
+            this.btPlanes.Location = new System.Drawing.Point(0, 255);
+            this.btPlanes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btPlanes.Name = "btPlanes";
-            this.btPlanes.Size = new System.Drawing.Size(260, 45);
+            this.btPlanes.Size = new System.Drawing.Size(195, 37);
             this.btPlanes.TabIndex = 7;
             this.btPlanes.Text = "Planes";
             this.btPlanes.UseVisualStyleBackColor = false;
@@ -245,9 +252,10 @@ namespace Grupo6Proyecto
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
-            this.panel4.Location = new System.Drawing.Point(0, 258);
+            this.panel4.Location = new System.Drawing.Point(0, 210);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(13, 45);
+            this.panel4.Size = new System.Drawing.Size(10, 37);
             this.panel4.TabIndex = 4;
             // 
             // btInscripcion
@@ -257,11 +265,12 @@ namespace Grupo6Proyecto
             this.btInscripcion.FlatAppearance.BorderSize = 0;
             this.btInscripcion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
             this.btInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btInscripcion.Font = new System.Drawing.Font("Montserrat SemiBold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btInscripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btInscripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(247)))), ((int)(((byte)(246)))));
-            this.btInscripcion.Location = new System.Drawing.Point(0, 258);
+            this.btInscripcion.Location = new System.Drawing.Point(0, 210);
+            this.btInscripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btInscripcion.Name = "btInscripcion";
-            this.btInscripcion.Size = new System.Drawing.Size(260, 45);
+            this.btInscripcion.Size = new System.Drawing.Size(195, 37);
             this.btInscripcion.TabIndex = 5;
             this.btInscripcion.Text = "Registrarse";
             this.btInscripcion.UseVisualStyleBackColor = false;
@@ -270,9 +279,10 @@ namespace Grupo6Proyecto
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
-            this.panel2.Location = new System.Drawing.Point(0, 198);
+            this.panel2.Location = new System.Drawing.Point(0, 161);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(13, 45);
+            this.panel2.Size = new System.Drawing.Size(10, 37);
             this.panel2.TabIndex = 2;
             // 
             // btHorarios
@@ -282,11 +292,12 @@ namespace Grupo6Proyecto
             this.btHorarios.FlatAppearance.BorderSize = 0;
             this.btHorarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
             this.btHorarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btHorarios.Font = new System.Drawing.Font("Montserrat SemiBold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHorarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btHorarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(247)))), ((int)(((byte)(246)))));
-            this.btHorarios.Location = new System.Drawing.Point(0, 198);
+            this.btHorarios.Location = new System.Drawing.Point(0, 161);
+            this.btHorarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btHorarios.Name = "btHorarios";
-            this.btHorarios.Size = new System.Drawing.Size(260, 45);
+            this.btHorarios.Size = new System.Drawing.Size(195, 37);
             this.btHorarios.TabIndex = 3;
             this.btHorarios.Text = "Horarios";
             this.btHorarios.UseVisualStyleBackColor = false;
@@ -295,9 +306,10 @@ namespace Grupo6Proyecto
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
-            this.panel1.Location = new System.Drawing.Point(0, 142);
+            this.panel1.Location = new System.Drawing.Point(0, 115);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(13, 45);
+            this.panel1.Size = new System.Drawing.Size(10, 37);
             this.panel1.TabIndex = 0;
             // 
             // btSalas
@@ -307,11 +319,12 @@ namespace Grupo6Proyecto
             this.btSalas.FlatAppearance.BorderSize = 0;
             this.btSalas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(27)))), ((int)(((byte)(26)))));
             this.btSalas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btSalas.Font = new System.Drawing.Font("Montserrat SemiBold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSalas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(247)))), ((int)(((byte)(246)))));
-            this.btSalas.Location = new System.Drawing.Point(0, 142);
+            this.btSalas.Location = new System.Drawing.Point(0, 115);
+            this.btSalas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btSalas.Name = "btSalas";
-            this.btSalas.Size = new System.Drawing.Size(260, 45);
+            this.btSalas.Size = new System.Drawing.Size(195, 37);
             this.btSalas.TabIndex = 1;
             this.btSalas.Text = "Salas";
             this.btSalas.UseVisualStyleBackColor = false;
@@ -321,9 +334,10 @@ namespace Grupo6Proyecto
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(29, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 22);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(174, 88);
+            this.pictureBox1.Size = new System.Drawing.Size(130, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -334,10 +348,10 @@ namespace Grupo6Proyecto
             this.PanelContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.PanelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenido.ForeColor = System.Drawing.Color.White;
-            this.PanelContenido.Location = new System.Drawing.Point(268, 46);
-            this.PanelContenido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelContenido.Location = new System.Drawing.Point(201, 37);
+            this.PanelContenido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PanelContenido.Name = "PanelContenido";
-            this.PanelContenido.Size = new System.Drawing.Size(1032, 604);
+            this.PanelContenido.Size = new System.Drawing.Size(774, 491);
             this.PanelContenido.TabIndex = 2;
             this.PanelContenido.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenido_Paint);
             // 
@@ -348,15 +362,15 @@ namespace Grupo6Proyecto
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
-            this.ClientSize = new System.Drawing.Size(1300, 650);
+            this.ClientSize = new System.Drawing.Size(975, 528);
             this.Controls.Add(this.PanelContenido);
             this.Controls.Add(this.MenuVetical);
             this.Controls.Add(this.BarradTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = " fomr";
             this.Load += new System.EventHandler(this.Form1_Load_1);

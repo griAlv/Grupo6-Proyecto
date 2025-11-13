@@ -21,5 +21,22 @@ namespace Grupo6Proyecto
         {
 
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            //Usuarios Nuevo = new Usuarios();
+
+            //dgvTablaReserv.Rows.Clear();
+
+            //dgvTablaReserv.Rows.Add(Nuevo.Identificacion);
+            //dgvTablaReserv.Rows.Add(Nuevo.Nombre);
+            //dgvTablaReserv.Rows.Add(Nuevo.Apellidos);
+            //dgvTablaReserv.Rows.Add(Nuevo.Sala);
+            //dgvTablaReserv.Rows.Add(Nuevo.Fecha);
+            //dgvTablaReserv.Rows.Add(Nuevo.Horas);
+            //dgvTablaReserv.Rows.Add(Nuevo.TotalCombo);
+
+
+        }
     }
 }

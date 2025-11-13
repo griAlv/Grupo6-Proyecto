@@ -21,6 +21,7 @@ namespace Grupo6Proyecto
         public Registro()
         {
             InitializeComponent();
+            cbxSalas.DropDownStyle = ComboBoxStyle.DropDownList; //No permite ingresar texto al combobox
             this.Load += Registro_Load;
         }
 
@@ -221,15 +222,15 @@ namespace Grupo6Proyecto
                     using (MySqlCommand cmd = new MySqlCommand(query, con))
                     {
                         //enviar los datos hacia el SQL
-                        cmd.Parameters.AddWithValue("@nombre", nombre);
-                        cmd.Parameters.AddWithValue("@apellido", apellidos);
-                        cmd.Parameters.AddWithValue("@id", identificacion);
-                        cmd.Parameters.AddWithValue("@sala", salas);
-                        cmd.Parameters.AddWithValue("@fecha", fechaMySQL);
-                        cmd.Parameters.AddWithValue("@hora", horaMySQL);
-                        cmd.Parameters.AddWithValue("@p1", plan1);
-                        cmd.Parameters.AddWithValue("@p2", plan2);
-                        cmd.Parameters.AddWithValue("@p3", plan3);
+                        cmd.Parameters.AddWithValue("@nombre", Nuevo.Nombre);
+                        cmd.Parameters.AddWithValue("@apellido", Nuevo.Apellidos);
+                        cmd.Parameters.AddWithValue("@id", Nuevo.Identificacion);
+                        cmd.Parameters.AddWithValue("@sala", Nuevo.Sala);
+                        cmd.Parameters.AddWithValue("@fecha", Nuevo.Fecha);
+                        cmd.Parameters.AddWithValue("@hora", Nuevo.Horas);
+                        cmd.Parameters.AddWithValue("@p1", Nuevo.Combo1);
+                        cmd.Parameters.AddWithValue("@p2", Nuevo.Combo2);
+                        cmd.Parameters.AddWithValue("@p3", Nuevo.Combo3);
                         cmd.Parameters.AddWithValue("@total", Nuevo.TotalCombo);
 
                         cmd.ExecuteNonQuery();

@@ -112,5 +112,10 @@ namespace Grupo6Proyecto
         {
             abrirFormHija(new Horarios());
         }
+
+        private void btReservaciones_Click(object sender, EventArgs e)
+        {
+            abrirFormHija(new Reservaciones());
+        }
     }
 }
