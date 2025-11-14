@@ -108,7 +108,7 @@ namespace Grupo6Proyecto
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.MaximumSize = new System.Drawing.Size(750, 812);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(160, 29);
+            this.label5.Size = new System.Drawing.Size(175, 29);
             this.label5.TabIndex = 3;
             this.label5.Text = "Identificacion:";
             // 
@@ -124,7 +124,7 @@ namespace Grupo6Proyecto
             "Sala 5",
             "Sala 6"});
             this.cbxSalas.Location = new System.Drawing.Point(469, 119);
-            this.cbxSalas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxSalas.Margin = new System.Windows.Forms.Padding(2);
             this.cbxSalas.MaximumSize = new System.Drawing.Size(751, 0);
             this.cbxSalas.Name = "cbxSalas";
             this.cbxSalas.Size = new System.Drawing.Size(254, 21);
@@ -150,7 +150,7 @@ namespace Grupo6Proyecto
             // 
             this.monthCalendar1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.monthCalendar1.Location = new System.Drawing.Point(526, 219);
-            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(7);
             this.monthCalendar1.MaximumSize = new System.Drawing.Size(750, 812);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 6;
@@ -217,7 +217,7 @@ namespace Grupo6Proyecto
             this.TxtNombre.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNombre.Location = new System.Drawing.Point(126, 84);
-            this.TxtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.TxtNombre.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(147, 24);
@@ -232,7 +232,7 @@ namespace Grupo6Proyecto
             this.btnReservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReservacion.ForeColor = System.Drawing.Color.White;
             this.btnReservacion.Location = new System.Drawing.Point(497, 410);
-            this.btnReservacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReservacion.Margin = new System.Windows.Forms.Padding(2);
             this.btnReservacion.MaximumSize = new System.Drawing.Size(750, 812);
             this.btnReservacion.Name = "btnReservacion";
             this.btnReservacion.Size = new System.Drawing.Size(121, 58);
@@ -248,7 +248,7 @@ namespace Grupo6Proyecto
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(638, 410);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.MaximumSize = new System.Drawing.Size(750, 812);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 58);
@@ -262,7 +262,7 @@ namespace Grupo6Proyecto
             this.TxtApellido.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtApellido.Location = new System.Drawing.Point(128, 132);
-            this.TxtApellido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtApellido.Margin = new System.Windows.Forms.Padding(2);
             this.TxtApellido.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(150, 24);
@@ -275,7 +275,7 @@ namespace Grupo6Proyecto
             this.TxtIdentificacion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtIdentificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtIdentificacion.Location = new System.Drawing.Point(191, 177);
-            this.TxtIdentificacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtIdentificacion.Margin = new System.Windows.Forms.Padding(2);
             this.TxtIdentificacion.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtIdentificacion.Name = "TxtIdentificacion";
             this.TxtIdentificacion.Size = new System.Drawing.Size(150, 24);
@@ -287,7 +287,7 @@ namespace Grupo6Proyecto
             this.TxtPlan1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtPlan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtPlan1.Location = new System.Drawing.Point(278, 346);
-            this.TxtPlan1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtPlan1.Margin = new System.Windows.Forms.Padding(2);
             this.TxtPlan1.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtPlan1.Name = "TxtPlan1";
             this.TxtPlan1.Size = new System.Drawing.Size(79, 24);
@@ -299,7 +299,7 @@ namespace Grupo6Proyecto
             this.TxtPlan2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtPlan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtPlan2.Location = new System.Drawing.Point(278, 392);
-            this.TxtPlan2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtPlan2.Margin = new System.Windows.Forms.Padding(2);
             this.TxtPlan2.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtPlan2.Name = "TxtPlan2";
             this.TxtPlan2.Size = new System.Drawing.Size(79, 24);
@@ -311,7 +311,7 @@ namespace Grupo6Proyecto
             this.TxtPlan3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtPlan3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtPlan3.Location = new System.Drawing.Point(278, 438);
-            this.TxtPlan3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtPlan3.Margin = new System.Windows.Forms.Padding(2);
             this.TxtPlan3.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtPlan3.Name = "TxtPlan3";
             this.TxtPlan3.Size = new System.Drawing.Size(79, 24);
@@ -323,7 +323,7 @@ namespace Grupo6Proyecto
             this.TxtFecha.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtFecha.Location = new System.Drawing.Point(478, 154);
-            this.TxtFecha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtFecha.Margin = new System.Windows.Forms.Padding(2);
             this.TxtFecha.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtFecha.Name = "TxtFecha";
             this.TxtFecha.Size = new System.Drawing.Size(96, 24);
@@ -349,7 +349,7 @@ namespace Grupo6Proyecto
             this.TxtHora.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.TxtHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtHora.Location = new System.Drawing.Point(649, 154);
-            this.TxtHora.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtHora.Margin = new System.Windows.Forms.Padding(2);
             this.TxtHora.MaximumSize = new System.Drawing.Size(751, 1000);
             this.TxtHora.Name = "TxtHora";
             this.TxtHora.Size = new System.Drawing.Size(76, 24);
@@ -384,7 +384,7 @@ namespace Grupo6Proyecto
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(777, 491);
             this.panel1.TabIndex = 28;
@@ -395,7 +395,7 @@ namespace Grupo6Proyecto
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(777, 62);
             this.panel2.TabIndex = 28;
@@ -408,7 +408,7 @@ namespace Grupo6Proyecto
             this.ClientSize = new System.Drawing.Size(777, 491);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Registro";
             this.Text = "Registro";
             this.panel1.ResumeLayout(false);

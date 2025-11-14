@@ -327,9 +327,14 @@ namespace Grupo6Proyecto
 
         }
 
+
         private void button2_Click(object sender, EventArgs e)
         {
+            Form1 principal = (Form1)this.ParentForm; // Obtiene Form1
 
+            Reservaciones formReservaciones = new Reservaciones();
+
+            principal.abrirFormHija(formReservaciones); // Abre Form3
         }
 
         private void TxtApellido_Validating(object sender, CancelEventArgs e)

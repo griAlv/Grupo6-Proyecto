@@ -146,7 +146,7 @@ namespace Grupo6Proyecto
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(793, 26);
+            this.panel2.Size = new System.Drawing.Size(827, 26);
             this.panel2.TabIndex = 3;
             // 
             // pictureBox1
@@ -158,7 +158,7 @@ namespace Grupo6Proyecto
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(370, 170);
+            this.pictureBox1.Size = new System.Drawing.Size(387, 170);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -188,7 +188,7 @@ namespace Grupo6Proyecto
             this.label3.Location = new System.Drawing.Point(8, 183);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(382, 75);
+            this.label3.Size = new System.Drawing.Size(399, 75);
             this.label3.TabIndex = 2;
             this.label3.Text = "En la sala de reuniones tradicional, contara con el espacio necesario para reunio" +
     "nes de  negocios, totalmente privado ";
@@ -222,7 +222,6 @@ namespace Grupo6Proyecto
             this.label5.Size = new System.Drawing.Size(85, 18);
             this.label5.TabIndex = 4;
             this.label5.Text = "Direccion:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -267,7 +266,7 @@ namespace Grupo6Proyecto
             this.BtnH1.Location = new System.Drawing.Point(78, 338);
             this.BtnH1.Margin = new System.Windows.Forms.Padding(0);
             this.BtnH1.Name = "BtnH1";
-            this.BtnH1.Size = new System.Drawing.Size(225, 46);
+            this.BtnH1.Size = new System.Drawing.Size(242, 46);
             this.BtnH1.TabIndex = 7;
             this.BtnH1.Text = "Reservar Ahora";
             this.BtnH1.UseVisualStyleBackColor = false;
@@ -290,7 +289,7 @@ namespace Grupo6Proyecto
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(392, 414);
+            this.panel1.Size = new System.Drawing.Size(409, 414);
             this.panel1.TabIndex = 2;
             // 
             // panel3
@@ -309,10 +308,10 @@ namespace Grupo6Proyecto
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Location = new System.Drawing.Point(398, 2);
+            this.panel3.Location = new System.Drawing.Point(415, 2);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(393, 414);
+            this.panel3.Size = new System.Drawing.Size(410, 414);
             this.panel3.TabIndex = 8;
             // 
             // label38
@@ -358,7 +357,7 @@ namespace Grupo6Proyecto
             this.BtnH2.Location = new System.Drawing.Point(78, 356);
             this.BtnH2.Margin = new System.Windows.Forms.Padding(0);
             this.BtnH2.Name = "BtnH2";
-            this.BtnH2.Size = new System.Drawing.Size(226, 46);
+            this.BtnH2.Size = new System.Drawing.Size(243, 46);
             this.BtnH2.TabIndex = 7;
             this.BtnH2.Text = "Reservar Ahora";
             this.BtnH2.UseVisualStyleBackColor = false;
@@ -434,7 +433,7 @@ namespace Grupo6Proyecto
             this.label12.Location = new System.Drawing.Point(8, 183);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(381, 75);
+            this.label12.Size = new System.Drawing.Size(398, 75);
             this.label12.TabIndex = 2;
             this.label12.Text = "El templo de paz es el lugar indicado lugar  donde  dejamos que se explore la cre" +
     "atividad,  listo para reuniones  sociales y amistosas\r\n";
@@ -463,7 +462,7 @@ namespace Grupo6Proyecto
             this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(371, 170);
+            this.pictureBox2.Size = new System.Drawing.Size(388, 170);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -484,10 +483,10 @@ namespace Grupo6Proyecto
             this.panel4.Controls.Add(this.label18);
             this.panel4.Controls.Add(this.label19);
             this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Location = new System.Drawing.Point(398, 420);
+            this.panel4.Location = new System.Drawing.Point(415, 420);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(393, 422);
+            this.panel4.Size = new System.Drawing.Size(410, 422);
             this.panel4.TabIndex = 10;
             // 
             // label41
@@ -533,7 +532,7 @@ namespace Grupo6Proyecto
             this.BtnH4.Location = new System.Drawing.Point(78, 356);
             this.BtnH4.Margin = new System.Windows.Forms.Padding(0);
             this.BtnH4.Name = "BtnH4";
-            this.BtnH4.Size = new System.Drawing.Size(226, 54);
+            this.BtnH4.Size = new System.Drawing.Size(243, 54);
             this.BtnH4.TabIndex = 7;
             this.BtnH4.Text = "Reservar Ahora";
             this.BtnH4.UseVisualStyleBackColor = false;
@@ -609,7 +608,7 @@ namespace Grupo6Proyecto
             this.label18.Location = new System.Drawing.Point(8, 183);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(378, 67);
+            this.label18.Size = new System.Drawing.Size(395, 67);
             this.label18.TabIndex = 2;
             this.label18.Text = "El salon ejecutivo es exclusivo, por parte de altos cargos en distintas empresas," +
     " equipada para largas cesiones de reportes y totalmente privada";
@@ -638,7 +637,7 @@ namespace Grupo6Proyecto
             this.pictureBox3.Location = new System.Drawing.Point(12, 12);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(318, 162);
+            this.pictureBox3.Size = new System.Drawing.Size(335, 162);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -662,7 +661,7 @@ namespace Grupo6Proyecto
             this.panel5.Location = new System.Drawing.Point(2, 420);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(392, 422);
+            this.panel5.Size = new System.Drawing.Size(409, 422);
             this.panel5.TabIndex = 9;
             // 
             // BtnH3
@@ -678,7 +677,7 @@ namespace Grupo6Proyecto
             this.BtnH3.Location = new System.Drawing.Point(78, 356);
             this.BtnH3.Margin = new System.Windows.Forms.Padding(0);
             this.BtnH3.Name = "BtnH3";
-            this.BtnH3.Size = new System.Drawing.Size(225, 54);
+            this.BtnH3.Size = new System.Drawing.Size(242, 54);
             this.BtnH3.TabIndex = 7;
             this.BtnH3.Text = "Reservar Ahora";
             this.BtnH3.UseVisualStyleBackColor = false;
@@ -784,7 +783,7 @@ namespace Grupo6Proyecto
             this.label24.Location = new System.Drawing.Point(8, 183);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(322, 67);
+            this.label24.Size = new System.Drawing.Size(339, 67);
             this.label24.TabIndex = 2;
             this.label24.Text = "La sala de Juntas esta equipada para recibir a  personal con propuestas y planes " +
     "de trabajo todo desde la privacidad necesaria";
@@ -814,7 +813,7 @@ namespace Grupo6Proyecto
             this.pictureBox4.Location = new System.Drawing.Point(12, 12);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(317, 162);
+            this.pictureBox4.Size = new System.Drawing.Size(334, 162);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
@@ -839,10 +838,10 @@ namespace Grupo6Proyecto
             this.panel6.Controls.Add(this.label47);
             this.panel6.Controls.Add(this.label43);
             this.panel6.Controls.Add(this.label44);
-            this.panel6.Location = new System.Drawing.Point(398, 846);
+            this.panel6.Location = new System.Drawing.Point(415, 846);
             this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(393, 458);
+            this.panel6.Size = new System.Drawing.Size(410, 458);
             this.panel6.TabIndex = 12;
             // 
             // label26
@@ -918,7 +917,7 @@ namespace Grupo6Proyecto
             this.BtnH6.Location = new System.Drawing.Point(80, 360);
             this.BtnH6.Margin = new System.Windows.Forms.Padding(0);
             this.BtnH6.Name = "BtnH6";
-            this.BtnH6.Size = new System.Drawing.Size(271, 40);
+            this.BtnH6.Size = new System.Drawing.Size(288, 40);
             this.BtnH6.TabIndex = 20;
             this.BtnH6.Text = "Reservar Ahora";
             this.BtnH6.UseVisualStyleBackColor = false;
@@ -949,7 +948,7 @@ namespace Grupo6Proyecto
             this.label30.Location = new System.Drawing.Point(16, 183);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(335, 67);
+            this.label30.Size = new System.Drawing.Size(352, 67);
             this.label30.TabIndex = 2;
             this.label30.Text = "El evento que necesitas cubrir,este es tu sitio en vista hermosa puedes cumplir c" +
     "on el evento de tus sueños";
@@ -993,7 +992,7 @@ namespace Grupo6Proyecto
             this.pictureBox5.Location = new System.Drawing.Point(12, 12);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(339, 163);
+            this.pictureBox5.Size = new System.Drawing.Size(356, 163);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
@@ -1070,7 +1069,7 @@ namespace Grupo6Proyecto
             this.panel7.Location = new System.Drawing.Point(2, 846);
             this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(392, 458);
+            this.panel7.Size = new System.Drawing.Size(409, 458);
             this.panel7.TabIndex = 11;
             // 
             // label48
@@ -1146,7 +1145,7 @@ namespace Grupo6Proyecto
             this.BtnH5.Location = new System.Drawing.Point(80, 360);
             this.BtnH5.Margin = new System.Windows.Forms.Padding(0);
             this.BtnH5.Name = "BtnH5";
-            this.BtnH5.Size = new System.Drawing.Size(225, 40);
+            this.BtnH5.Size = new System.Drawing.Size(242, 40);
             this.BtnH5.TabIndex = 20;
             this.BtnH5.Text = "Reservar Ahora";
             this.BtnH5.UseVisualStyleBackColor = false;
@@ -1177,7 +1176,7 @@ namespace Grupo6Proyecto
             this.label36.Location = new System.Drawing.Point(8, 183);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(373, 68);
+            this.label36.Size = new System.Drawing.Size(390, 68);
             this.label36.TabIndex = 2;
             this.label36.Text = "En el salon de fiestas, puedes celebrar lo que te \r\nimagines, amplio y con person" +
     "al atendiendote\r\nen lo que necesites";
@@ -1236,7 +1235,7 @@ namespace Grupo6Proyecto
             this.pictureBox6.Location = new System.Drawing.Point(12, 12);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(370, 163);
+            this.pictureBox6.Size = new System.Drawing.Size(387, 163);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
@@ -1308,7 +1307,7 @@ namespace Grupo6Proyecto
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.56606F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.43394F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 461F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(793, 1306);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(827, 1306);
             this.tableLayoutPanel1.TabIndex = 13;
             // 
             // Salas
@@ -1318,7 +1317,7 @@ namespace Grupo6Proyecto
             this.AutoScroll = true;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(810, 491);
+            this.ClientSize = new System.Drawing.Size(844, 491);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
